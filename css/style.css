@@ -1,6 +1,9 @@
 body{
     background-color: black;
 }
+.height{
+    height: 90vh;
+}
 .display{
     width: 45vh;
     margin: auto;
