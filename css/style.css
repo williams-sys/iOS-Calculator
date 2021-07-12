@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+.display{
+    width: 45vh;
+    margin: auto;
+    color: white;
+    font-size: 60px;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.display{
+
+}
+.gray{
+    background-color: #A5A5A5;
+}
+.gray:active{
+    background-color: #A5A5A590;
+}
+.black{
+    background-color: #333333;
+}
+.black:active{
+    background-color: #33333390;
+}
+.yellow{
+    background-color: #F1A33B;
+}
+.yellow:active{
+    background-color: #F1A33Bbb;
+}
+
+.large{
+    width: 21vh;
+    height: 10vh;
+}
+.keypad{
+    width: 110%;
+}
+.key{
+    border-radius: 90px;
+    font-size: 30px;
+    width: 10vh;
+    height: 10vh;
+    color: white;
+    font-family: Arial;
+    cursor: pointer;
+    user-select: none;
+}
+.key-table{
+    margin: auto;
+}
+
+
+@media screen and (max-width: 2560px){
+    .large{
+        width: 21vh;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .key{
+        font-size: 33px;
+        width: 11vh;
+        height: 11vh;
+    }
+    .large{
+        width: 24vh;
+    }
+}
+@media screen and (max-width: 420px){
+    .key{
+        font-size: 33px;
+        width: 11vh;
+        height: 11vh;
+    }
+    .large{
+        width: 24vh;
+    }
+}
+
+
+
+@media screen and (max-width: 380px){
+    .key{
+        font-size: 27px;
+        width: 9vh;
+        height: 9vh;
+    }
+    .large{
+        width: 19vh;
+    }
+}
+
